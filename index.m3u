@@ -255,7 +255,7 @@ http://176.118.197.101/Illuzion+/index.m3u8
 http://vod.tuva.ru/kinotv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="mir-seriala" tvg-logo="https://iptvx.one/picons/mir-seriala.png" group-title="Кино и сериалы" ,Мир Сериала
 http://31.148.48.15:80/Mir_Seriala/index.m3u8
-#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)" ,Мосфильм. Золотая коллекция
+#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы" ,Мосфильм. Золотая коллекция
 http://185.164.82.18:9010/ykMHqK_Fox
 #EXTINF:-1 tvg-id="nst" tvg-logo="https://iptvx.one/picons/nst.png" group-title="Кино и сериалы" ,НСТ
 http://193.25.8.59:8000/nst
