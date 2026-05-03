@@ -82,6 +82,31 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_U_2/variant.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
 
+#EXTINF:-1 group-title="Информационные" tvg-id="euronews" tvg-logo="https://iptvx.one/picons/euronews.png", Euronews
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
+https://stream8.cinerama.uz/1024/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Информационные" tvg-id="vmeste-rf" tvg-logo="https://epg.iptvx.one/picons/vmeste-rf.png", Вместе-РФ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
+http://api.tjmc.ru/v2/tvs/channel/vmeste-rf
+#EXTINF:-1 group-title="Информационные" tvg-id="izvestia" tvg-logo="https://epg.iptvx.one/picons/izvestia.png", Известия
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
+http://api.tjmc.ru/v2/tvs/channel/izvestia
+#EXTINF:-1 group-title="Информационные" tvg-id="mir-24" tvg-logo="https://iptvx.one/picons/mir24.png, Мир 24 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+#EXTINF:-1 group-title="Информационные" tvg-id="rbk" tvg-logo="https://iptvx.one/picons/rbk.png", РБК
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
+http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
+#EXTINF:-1 group-title="Информационные" tvg-id="360-news" tvg-logo="https://epg.iptvx.one/picons/360-news.png", 360 Новости
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
+http://api.tjmc.ru/v2/tvs/channel/360news
+#EXTINF:-1 group-title="Информационные" tvg-id="solovjinypomiot" tvg-logo="https://epg.iptvx.one/picons/solovjinypomiot.png", Соловьев Live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
+http://api.tjmc.ru/v2/tvs/channel/solovyevlive
+#EXTINF:-1 group-title="Информационные" tvg-id="dozhd" tvg-logo="https://epg.iptvx.one/picons/dozhd.png", Дождь HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
+https://wl.tvrain.tv/transcode/ngrp:ses_all/playlist.m3u8
+
 #EXTINF:-1 group-title="Региональные" tvg-id="tumenskoe-vremia" tvg-logo="https://epg.iptvx.one/picons/tumenskoe-vremia.png", ТЮМЕНСКОЕ ВРЕМЯ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TUMVR_URAL_TUM/variant.m3u8?version=2
@@ -95,47 +120,65 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/chelyabinsk/ural24-hd/track_101_4e9e7e
 #EXTINF:-1 group-title="Региональные" tvg-id="yugra" tvg-logo="https://iptvx.one/picons/yugra.png", Югра
 https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8
 
-#EXTINF:-1 group-title="Спортивные" tvg-id="-1" tvg-logo="http://epg.one/img2/2051.png", Любой Матч!
-http://api.tjmc.ru/v2/tvs/channel/random/match
 #EXTINF:-1 group-title="Спортивные" tvg-id="2003" tvg-logo="http://epg.one/img2/2003.png", Матч! Арена
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/match_arena
 #EXTINF:-1 group-title="Спортивные" tvg-id="2042" tvg-logo="http://epg.one/img2/2042.png", Матч! Страна
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/nashsport
 #EXTINF:-1 group-title="Спортивные" tvg-id="2050" tvg-logo="http://epg.one/img2/2050.png", Матч! Игра
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/match_igra
 #EXTINF:-1 group-title="Спортивные" tvg-id="2051" tvg-logo="http://epg.one/img2/2051.png", Матч!
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/matchott
 #EXTINF:-1 group-title="Спортивные" tvg-id="2054" tvg-logo="http://epg.one/img2/2054.png", Матч! Боец
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/boectv
 #EXTINF:-1 group-title="Спортивные" tvg-id="2044" tvg-logo="http://epg.one/img2/2044.png", Матч! Футбол 1 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/footbal1hd
 #EXTINF:-1 group-title="Спортивные" tvg-id="1042" tvg-logo="http://epg.one/img2/1042.png", Матч! Футбол 2 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/footbal2hd
 #EXTINF:-1 group-title="Спортивные" tvg-id="2005" tvg-logo="http://epg.one/img2/2005.png", Матч! Футбол 3 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/footbal3hd
 #EXTINF:-1 group-title="Спортивные" tvg-id="2250" tvg-logo="http://epg.one/img2/2250.png", Матч! Премьер
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/match_premyer
 #EXTINF:-1 group-title="Спортивные" tvg-id="2250" tvg-logo="http://epg.one/img2/2250.png", Матч! Премьер HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/match_premyerhd
 #EXTINF:-1 group-title="Спортивные" tvg-id="4605" tvg-logo="http://epg.one/img2/4605.png", Хоккейный HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/hokkeyniy
 #EXTINF:-1 group-title="Спортивные" tvg-id="4679" tvg-logo="http://epg.one/img2/4679.png", Футбольный HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/footbolniyhd
 #EXTINF:-1 group-title="Спортивные" tvg-id="4678" tvg-logo="http://epg.one/img2/4678.png", Спортивный HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/sportivniyhd
 #EXTINF:-1 group-title="Спортивные" tvg-id="2048" tvg-logo="http://epg.one/img2/2048.png", KHL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/khltv
 #EXTINF:-1 group-title="Спортивные" tvg-id="1038" tvg-logo="http://epg.one/img2/1038.png", KHL Prime
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/khlhd
 #EXTINF:-1 group-title="Спортивные" tvg-id="2285" tvg-logo="http://epg.one/img2/2285.png", Бокс ТВ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/bokstv
 #EXTINF:-1 group-title="Спортивные" tvg-id="2530" tvg-logo="http://epg.one/img2/2530.png", Старт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/start
 #EXTINF:-1 group-title="Спортивные" tvg-id="2326" tvg-logo="http://epg.one/img2/2326.png", M-1 Global
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/m1global
 #EXTINF:-1 group-title="Спортивные" tvg-id="9112" tvg-logo="http://epg.one/img2/9112.png", Старт Триумф
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/start-triumf
 #EXTINF:-1 group-title="Спортивные" tvg-id="3792" tvg-logo="http://epg.one/img2/3792.png", FightBox
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/fightbox
 
 #EXTINF:-1 tvg-id="tv1-kg-hd" tvg-logo="https://iptvx.one/picons/tv1-kg-hd.png" group-title="Развлекательные",TV1 KG HD (Кыргызстан)
