@@ -1,5 +1,5 @@
 #EXTM3U8
-#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz"
+#EXTM3U url-tvg="https://iptvx.one/EPG_LITE" m3uautoload=1 cache=2000 deinterlace=1
 
 #EXTINF:-1 group-title="Общественные" tvg-id="pervy-pl2" tvg-logo="https://epg.iptvx.one/picons/pervy-pl2.png", Первый канал (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
@@ -104,9 +104,8 @@ http://api.tjmc.ru/v2/tvs/channel/360news
 #EXTINF:-1 group-title="Информационные" tvg-id="solovjinypomiot" tvg-logo="https://epg.iptvx.one/picons/solovjinypomiot.png", Соловьев Live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://api.tjmc.ru/v2/tvs/channel/solovyevlive
-#EXTINF:-1 group-title="Информационные" tvg-id="dozhd" tvg-logo="https://epg.iptvx.one/picons/dozhd.png", Дождь HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://wl.tvrain.tv/transcode/ngrp:ses_all/playlist.m3u8
+#EXTINF:-1 group-title="Информационные" tvg-id="dozhd",Дождь
+http://192.168.0.13:6878/ace/manifest.m3u8?id=4b91bbf01a5574583e7e4af5b258de3e454d83e4
 
 #EXTINF:-1 group-title="Региональные" tvg-id="tumenskoe-vremia" tvg-logo="https://epg.iptvx.one/picons/tumenskoe-vremia.png", ТЮМЕНСКОЕ ВРЕМЯ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
@@ -121,66 +120,59 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/chelyabinsk/ural24-hd/track_101_4e9e7e
 #EXTINF:-1 group-title="Региональные" tvg-id="yugra" tvg-logo="https://iptvx.one/picons/yugra.png", Югра
 https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8
 
-#EXTINF:-1 group-title="Спортивные" tvg-id="2003" tvg-logo="http://epg.one/img2/2003.png", Матч! Арена
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/match_arena
-#EXTINF:-1 group-title="Спортивные" tvg-id="2042" tvg-logo="http://epg.one/img2/2042.png", Матч! Страна
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/nashsport
-#EXTINF:-1 group-title="Спортивные" tvg-id="2050" tvg-logo="http://epg.one/img2/2050.png", Матч! Игра
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/match_igra
-#EXTINF:-1 group-title="Спортивные" tvg-id="2051" tvg-logo="http://epg.one/img2/2051.png", Матч!
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/matchott
-#EXTINF:-1 group-title="Спортивные" tvg-id="2054" tvg-logo="http://epg.one/img2/2054.png", Матч! Боец
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/boectv
-#EXTINF:-1 group-title="Спортивные" tvg-id="2044" tvg-logo="http://epg.one/img2/2044.png", Матч! Футбол 1 HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/footbal1hd
-#EXTINF:-1 group-title="Спортивные" tvg-id="1042" tvg-logo="http://epg.one/img2/1042.png", Матч! Футбол 2 HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/footbal2hd
-#EXTINF:-1 group-title="Спортивные" tvg-id="2005" tvg-logo="http://epg.one/img2/2005.png", Матч! Футбол 3 HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/footbal3hd
-#EXTINF:-1 group-title="Спортивные" tvg-id="2250" tvg-logo="http://epg.one/img2/2250.png", Матч! Премьер
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/match_premyer
-#EXTINF:-1 group-title="Спортивные" tvg-id="2250" tvg-logo="http://epg.one/img2/2250.png", Матч! Премьер HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/match_premyerhd
-#EXTINF:-1 group-title="Спортивные" tvg-id="4605" tvg-logo="http://epg.one/img2/4605.png", Хоккейный HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/hokkeyniy
-#EXTINF:-1 group-title="Спортивные" tvg-id="4679" tvg-logo="http://epg.one/img2/4679.png", Футбольный HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/footbolniyhd
-#EXTINF:-1 group-title="Спортивные" tvg-id="4678" tvg-logo="http://epg.one/img2/4678.png", Спортивный HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/sportivniyhd
-#EXTINF:-1 group-title="Спортивные" tvg-id="2048" tvg-logo="http://epg.one/img2/2048.png", KHL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/khltv
-#EXTINF:-1 group-title="Спортивные" tvg-id="1038" tvg-logo="http://epg.one/img2/1038.png", KHL Prime
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/khlhd
-#EXTINF:-1 group-title="Спортивные" tvg-id="2285" tvg-logo="http://epg.one/img2/2285.png", Бокс ТВ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/bokstv
-#EXTINF:-1 group-title="Спортивные" tvg-id="2530" tvg-logo="http://epg.one/img2/2530.png", Старт
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/start
-#EXTINF:-1 group-title="Спортивные" tvg-id="2326" tvg-logo="http://epg.one/img2/2326.png", M-1 Global
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/m1global
-#EXTINF:-1 group-title="Спортивные" tvg-id="9112" tvg-logo="http://epg.one/img2/9112.png", Старт Триумф
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/start-triumf
-#EXTINF:-1 group-title="Спортивные" tvg-id="3792" tvg-logo="http://epg.one/img2/3792.png", FightBox
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/fightbox
+#EXTINF:-1 group-title="Спорт" tvg-id="match-premier" tvg-logo="https://iptvx.one/picons/match-premier.png",Матч! Премьер HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=4b7c5f21b435d79c823e47572655a9c157a3ba12
+#EXTINF:-1 group-title="Спорт" tvg-id="football-ru" tvg-logo="https://iptvx.one/picons/football-ru.png",Футбол HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=fce354f24fe26ca527e2c38b14eb7b0c81f756dd
+#EXTINF:-1 group-title="Спорт" tvg-id="match-football1" tvg-logo="https://iptvx.one/picons/match-football1.png",Матч! Футбол 1 HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=b28db77c5084da7993395d77df96c30bb134f0a9
+#EXTINF:-1 group-title="Спорт" tvg-id="match-football2" tvg-logo="https://iptvx.one/picons/match-football2.png",Матч! Футбол 2 HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=ffbf8c687c788d9a1a7c651e24802ee773ff3f04
+#EXTINF:-1 group-title="Спорт" tvg-id="match-football3" tvg-logo="https://iptvx.one/picons/match-football3.png",Матч! Футбол 3 HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=b6baa046075d82da300fc1b16de96067a8b9540e
+#EXTINF:-1 group-title="Спорт" tvg-id="match-tv" tvg-logo="https://iptvx.one/picons/match-tv.png",Матч ТВ HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=a203f6b935a8ad8659c4c76c1d9c13afa6368ef2
+#EXTINF:-1 group-title="Спорт" tvg-id="match-igra" tvg-logo="https://iptvx.one/picons/match-igra.png",Матч! Игра HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=762e1d11f7d07029f316c6f61b8ef73289c6673c
+#EXTINF:-1 group-title="Спорт" tvg-id="match-arena" tvg-logo="https://iptvx.one/picons/match-arena.png",Матч! Арена HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=a1d67cb505881b2b5bc58ce2af367e5e6d26cab5
+#EXTINF:-1 group-title="Спорт" tvg-id="match-nash-sport" tvg-logo="https://iptvx.one/picons/match-nash-sport.png",Матч! Страна
+http://192.168.0.13:6878/ace/manifest.m3u8?id=ef9c77bd94783448b8edb552109f5f15b2bd82d1
+#EXTINF:-1 group-title="Спорт" tvg-id="start" tvg-logo="https://iptvx.one/picons/start.png",Старт
+http://192.168.0.13:6878/ace/manifest.m3u8?id=4b129146077c1e357e4ab341448b9fb629f939dc
+#EXTINF:-1 group-title="Спорт" tvg-id="kxl" tvg-logo="https://iptvx.one/picons/kxl.png",КХЛ ТВ
+http://192.168.0.13:6878/ace/manifest.m3u8?id=aa6c193b9de1e6b6277e3075299fdeea925e2dc0
+#EXTINF:-1 group-title="Спорт" tvg-id="kxl-hd" tvg-logo="https://iptvx.one/picons/kxl-hd.png",KHL Prime HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=dcda9de85f7d662c5c3c2efd74eca0fb5c6aab3b
+#EXTINF:-1 group-title="Спорт" tvg-id="xokkejny" tvg-logo="https://iptvx.one/picons/xokkejny.png",Хоккейный HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=99f0646986e9266836dd79047dedecb04e243857
+#EXTINF:-1 group-title="Спорт" tvg-id="footbolny" tvg-logo="https://iptvx.one/picons/footbolny.png",Футбольный HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=92f8939c7bff6bcb7e6da39379bb3d7a6a76693f
+#EXTINF:-1 group-title="Спорт" tvg-id="sportivny" tvg-logo="https://iptvx.one/picons/sportivny.png",Спортивный
+http://192.168.0.13:6878/ace/manifest.m3u8?id=8410d89a5767b250cd752381672aeb5fbe2240d3
+#EXTINF:-1 group-title="Спорт" tvg-id="viasat-sport" tvg-logo="https://iptvx.one/picons/viasat-sport.png",VIASAT SPORT HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=dec96c86080c26ddf667ea90adfb513a40007a0b
+#EXTINF:-1 group-title="Спорт" tvg-id="eurosport1" tvg-logo="https://iptvx.one/picons/eurosport1.png",Eurosport 1 HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=1b0bc4d4dcd609d3c092712e721392b199f50a62
+#EXTINF:-1 group-title="Спорт" tvg-id="eurosport2" tvg-logo="https://iptvx.one/picons/eurosport2.png",Eurosport 2 HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=6176281b9c46a5621a0e88524f8dc621f173b8e0
+#EXTINF:-1 group-title="Спорт" tvg-id="setanta-sports" tvg-logo="https://iptvx.one/picons/setanta-sports.png",Setanta Live 1
+http://192.168.0.13:6878/ace/manifest.m3u8?id=42fe2ce3ef6b92653a74d85b6e98c2ba0abee707
+#EXTINF:-1 group-title="Спорт" tvg-id="setanta-sports-plus" tvg-logo="https://iptvx.one/picons/setanta-sports-plus.png",Setanta Live 2
+http://192.168.0.13:6878/ace/manifest.m3u8?id=f6d68cfa8694f814983f2a5757f4e0c4964b880c
+#EXTINF:-1 group-title="Спорт" tvg-id="ufc" tvg-logo="https://iptvx.one/picons/ufc.png",UFC HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=d2374e2375a4275738e0dbed2f47d0114ad1cb64
+#EXTINF:-1 group-title="Спорт" tvg-id="match-boets" tvg-logo="https://iptvx.one/picons/match-boets.png",Матч! Боец HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=822654b2c0db24d1de149cb21fdd44a3b968fbfa
+#EXTINF:-1 group-title="Спорт" tvg-id="extreme-sports" tvg-logo="https://iptvx.one/picons/extreme-sports.png",Extreme Sports
+http://192.168.0.13:6878/ace/manifest.m3u8?id=73ff07648e367efebd94636047b07625f664a082
+#EXTINF:-1 group-title="Спорт" tvg-id="avto-plus" tvg-logo="https://iptvx.one/picons/avto-plus.png",Авто Плюс
+http://192.168.0.13:6878/ace/manifest.m3u8?id=c3ff9e5243014a19c3cee52159d68fd750eeecb9
+#EXTINF:-1 group-title="Спорт" tvg-id="avto24" tvg-logo="https://iptvx.one/picons/avto24.png",Авто 24
+http://192.168.0.13:6878/ace/manifest.m3u8?id=7e515477cf191b1e4e33c7151c7cf84925f16780
+#EXTINF:-1 group-title="Спорт" tvg-id="drive" tvg-logo="https://iptvx.one/picons/drive.png",Драйв
+http://192.168.0.13:6878/ace/manifest.m3u8?id=2893ea38cf923c7efcfaf3eead798dd73b2cf2d0
+
 
 #EXTINF:-1 tvg-id="belarus2" tvg-logo="https://iptvx.one/picons/belarus2hd.png" group-title="Развлекательные" ,Беларусь 2 HD
 https://edge50.dc.beltelecom.by/ngtrk/smil:belarus2.smil/chunklist_b5160000_sleng.m3u8
@@ -249,6 +241,7 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="shanson-tv" tvg-logo="https://iptvx.one/picons/shanson-tv.png" group-title="Музыкальные",Шансон ТВ
 http://hls-shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8
 
+
 #EXTINF:-1 tvg-id="sony-turbo" tvg-logo="https://iptvx.one/picons/sony-turbo.png" group-title="Кино и сериалы",.black
 http://158.101.222.193:88/georgia_play.php?id=black
 #EXTINF:-1 tvg-id="sony-scifi" tvg-logo="https://iptvx.one/picons/sony-scifi.png" group-title="Кино и сериалы" ,.sci-fi
@@ -305,6 +298,48 @@ https://cdn4.skygo.mn/live/disk1/Pobeda/HLSv3-FTA/Pobeda.m3u8
 http://158.101.222.193:88/georgia_play.php?id=rusilluzion
 #EXTINF:-1 tvg-id="russky-roman" tvg-logo="https://iptvx.one/picons/russky-roman.png" group-title="Кино и сериалы" ,Русский роман
 http://vod.tuva.ru/rusroman/index.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="kinopremiera-hd",Кинопремьера HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=94ed8b55a5e30f9ce93b018c80fba3c0a29a3ce6
+#EXTINF:-1 group-title="Кино" tvg-id="tv1000-russkoe-kino",TV1000 Русское кино HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=af4baf7f76a3057eeea815c90747860e9fec488a
+#EXTINF:-1 group-title="Кино" tvg-id="kinokomedia",Кинокомедия HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=dfb83e3ff3c570ba7346641c827d89bd472a18a2
+#EXTINF:-1 group-title="Кино" tvg-id="mosfilm",Мосфильм. Золотая коллекция HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=50c13be1307994322057222dbbeefd22622e333d
+#EXTINF:-1 group-title="Кино" tvg-id="lubimoe-kino",Наше любимое HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=c19410106243ea2a8f8a6fa7a2d69d9ed735d3c1
+#EXTINF:-1 group-title="Кино" tvg-id="rodnoe-kino",Родное кино
+http://192.168.0.13:6878/ace/manifest.m3u8?id=b46c879a624e1d0aa8eeb18300cda7413657e80a
+#EXTINF:-1 group-title="Кино" tvg-id="nashe-novoe-kino",Наше новое кино HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=ae38625cca3cae6873509ba05b99aa1af5ec0f4e
+#EXTINF:-1 group-title="Кино" tvg-id="russky-bestseller",Русский Бестселлер
+http://192.168.0.13:6878/ace/manifest.m3u8?id=3b35986d4455f25cc8a28d666bb2ca8b638986de
+#EXTINF:-1 group-title="Кино" tvg-id="domkino",Дом кино
+http://192.168.0.13:6878/ace/manifest.m3u8?id=4403739564a9b19055786e9844ea48147b3f930b
+#EXTINF:-1 group-title="Кино" tvg-id="domkino-premium",Дом кино премиум HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=c2877f4320f2029a59f2121525280c539fb1b9e9
+#EXTINF:-1 group-title="Кино" tvg-id="russky-detektiv",Русский Детектив
+http://192.168.0.13:6878/ace/manifest.m3u8?id=0028b93215ac25fb20fac7938a5697cf835a4a36
+#EXTINF:-1 group-title="Кино" tvg-id="russky-illuzion",Русский иллюзион
+http://192.168.0.13:6878/ace/manifest.m3u8?id=9f476ff8038d54604d17b15e25e57a041372cde1
+#EXTINF:-1 group-title="Кино" tvg-id="illuzion-plus",Иллюзион+ HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=cc4b12985ef1c75d786cc5fafa5d0deb960312fd
+#EXTINF:-1 group-title="Кино" tvg-id="feniks-plus-kino",Феникс Плюс Кино
+http://192.168.0.13:6878/ace/manifest.m3u8?id=505d4c6259acfea0ee5d9b1f26f7badd447f69f6
+#EXTINF:-1 group-title="Кино" tvg-id="romantichnoe-hd",Романтичное HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=19bf6faf7257fb5db419008750d80ab4b693981e
+#EXTINF:-1 group-title="Кино" tvg-id="pro-lyubov",Про Любовь HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=300552f346d9fe2dfd405f48fbafe084a95da563
+#EXTINF:-1 group-title="Кино" tvg-id="ntv-xit",НТВ ХИТ
+http://192.168.0.13:6878/ace/manifest.m3u8?id=f9cad853d220c9d7c3ec88ad65681a611b8ec280
+#EXTINF:-1 group-title="Кино" tvg-id="ntv-serial",НТВ Сериал
+http://192.168.0.13:6878/ace/manifest.m3u8?id=4419e27b1f86679b2741e2f0d096922b05c00993
+#EXTINF:-1 group-title="Кино" tvg-id="nostalgia",Ностальгия
+http://192.168.0.13:6878/ace/manifest.m3u8?id=4308d30a3e8a7bc83e1f081f565371120c3fb6b3
+#EXTINF:-1 group-title="Кино" tvg-id="dorama",Дорама HD
+http://192.168.0.13:6878/ace/manifest.m3u8?id=67cf1b59347125a57a5ea62844a6b77075a3d9dd
+
 
 #EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" group-title="Кинозалы" ,Alpha Cinema
 http://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8
