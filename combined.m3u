@@ -110,14 +110,8 @@ http://192.168.0.13:6878/ace/getstream?id=4b91bbf01a5574583e7e4af5b258de3e454d83
 #EXTINF:-1 group-title="Информационные" tvg-id="echotv24" tvg-logo="https://epg.iptvx.one/picons/echotv24.png", Эхо ТВ 24
 http://stream.novouralsk-news.ru/echotv24/echotv24-576p.m3u8
 
-#EXTINF:-1 group-title="Спорт" tvg-id="match-premier" tvg-logo="https://iptvx.one/picons/match-premier.png",Матч! Премьер HD (13r)
+#EXTINF:-1 group-title="Спорт" tvg-id="match-premier" tvg-logo="https://iptvx.one/picons/match-premier.png",Матч! Премьер HD
 http://192.168.0.13:6878/ace/getstream?id=4b7c5f21b435d79c823e47572655a9c157a3ba12
-#EXTINF:-1 group-title="Спорт" tvg-id="match-premier" tvg-logo="https://iptvx.one/picons/match-premier.png",Матч! Премьер HD (13ts)
-http://192.168.0.13:6878/ace/getstream?id=4b7c5f21b435d79c823e47572655a9c157a3ba12&.ts
-#EXTINF:-1 group-title="Спорт" tvg-id="match-premier" tvg-logo="https://iptvx.one/picons/match-premier.png",Матч! Премьер HD (13m3u8)
-http://192.168.0.13:6878/ace/manifest.m3u8?id=4b7c5f21b435d79c823e47572655a9c157a3ba12
-#EXTINF:-1 group-title="Спорт" tvg-id="match-premier" tvg-logo="https://iptvx.one/picons/match-premier.png",Матч! Премьер HD (10)
-http://192.168.0.10:6878/ace/getstream?id=4b7c5f21b435d79c823e47572655a9c157a3ba12&.ts
 #EXTINF:-1 group-title="Спорт" tvg-id="football-ru" tvg-logo="https://iptvx.one/picons/football-ru.png",Футбол HD
 http://192.168.0.13:6878/ace/getstream?id=fce354f24fe26ca527e2c38b14eb7b0c81f756dd
 #EXTINF:-1 group-title="Спорт" tvg-id="match-football1" tvg-logo="https://iptvx.one/picons/match-football1.png",Матч! Футбол 1 HD
