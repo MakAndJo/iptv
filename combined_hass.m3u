@@ -224,7 +224,7 @@ http://hls-shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="bollywood-hd" tvg-logo="https://iptvx.one/picons/bollywood-hd.png" group-title="Кино и сериалы" ,Bollywood HD
 http://176.118.197.101/Bollywood_HD/index.m3u8
 #EXTINF:-1 tvg-id="domkino" tvg-logo="https://iptvx.one/picons/domkino.png" group-title="Кино и сериалы" ,Дом Кино
-http://192.168.0.10:6878/ace/getstream?id=8fc9c2bbb4f2a150858e7dd695bd2ead94bccbb0
+http://89.33.29.115:8080/Dom_kino/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="evrokino" tvg-logo="https://iptvx.one/picons/eurokino.png" group-title="Кино и сериалы" ,Еврокино
 http://176.118.197.101/Evrokino/index.m3u8
 #EXTINF:-1 tvg-id="illuzion-plus" tvg-logo="https://iptvx.one/picons/illuzion-plus.png" group-title="Кино и сериалы" ,Иллюзион+
@@ -246,13 +246,9 @@ http://192.168.0.10:6878/ace/getstream?id=af4baf7f76a3057eeea815c90747860e9fec48
 http://192.168.0.10:6878/ace/getstream?id=dfb83e3ff3c570ba7346641c827d89bd472a18a2
 #EXTINF:-1 group-title="Кино" tvg-id="mosfilm",Мосфильм. Золотая коллекция HD
 http://192.168.0.10:6878/ace/getstream?id=50c13be1307994322057222dbbeefd22622e333d
-#EXTINF:-1 group-title="Кино" tvg-id="lubimoe-kino",Наше любимое HD
-http://192.168.0.10:6878/ace/getstream?id=c19410106243ea2a8f8a6fa7a2d69d9ed735d3c1
 
 #EXTINF:-1 group-title="Кино" tvg-id="ntv-xit",НТВ ХИТ
 http://192.168.0.10:6878/ace/getstream?id=f9cad853d220c9d7c3ec88ad65681a611b8ec280
-#EXTINF:-1 group-title="Кино" tvg-id="ntv-serial",НТВ Сериал
-http://192.168.0.10:6878/ace/getstream?id=4419e27b1f86679b2741e2f0d096922b05c00993
 
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" ,Retrovision Motor
 http://fl1001.bozztv.com/ushba-rvisionmotor/tracks-v1a1/mono.m3u8
@@ -261,9 +257,9 @@ http://fl1001.bozztv.com/ushba-rvisionmotor/tracks-v1a1/mono.m3u8
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/tracks-v5a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="avto24" tvg-logo="http://epg.it999.ru/img2/2008.png" group-title="Хобби и увлечения" ,АВТО 24
-http://192.168.0.10:6878/ace/getstream?id=7e515477cf191b1e4e33c7151c7cf84925f16780
+http://89.33.29.115:8080/Avto_24/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="drive" tvg-logo="https://iptvx.one/picons/drive.png" group-title="Хобби и увлечения" ,Драйв
-http://192.168.0.10:6878/ace/getstream?id=2893ea38cf923c7efcfaf3eead798dd73b2cf2d0
+http://89.33.29.115:8080/Drayv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="zagorodnaya-zhizn" tvg-logo="https://iptvx.one/picons/zagorodnaya-zhizn.png" group-title="Хобби и увлечения",Загородная Жизнь
 http://185.57.68.33/40/mpegts
 #EXTINF:-1 tvg-id="nasha-tema" tvg-logo="http://epg.it999.ru/img2/2433.png" group-title="Хобби и увлечения" ,Наша Тема
