@@ -1,88 +1,92 @@
 #EXTM3U8
 #EXTM3U url-tvg="https://iptvx.one/EPG_LITE" m3uautoload=1 cache=2000 deinterlace=1
 
-#EXTINF:-1 group-title="Общественные" tvg-id="pervy-pl2" tvg-logo="https://epg.iptvx.one/picons/pervy-pl2.png", Первый канал (+2)
+#EXTINF:-1 group-title="Эфирные" tvg-chno="1" tvg-id="pervy-pl2" tvg-logo="https://epg.iptvx.one/picons/pervy-pl2.png", Первый канал (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_1TV_EKT/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="rossia1-pl2" tvg-logo="https://epg.iptvx.one/picons/rossia1-pl2.png", Россия 1 (+2)
+#EXTINF:-1 group-title="Эфирные" tvg-chno="2" tvg-id="rossia1-pl2" tvg-logo="https://epg.iptvx.one/picons/rossia1-pl2.png", Россия 1 (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="match-tv" tvg-logo="https://epg.iptvx.one/picons/match-tv.png", Матч!
+#EXTINF:-1 group-title="Эфирные" tvg-chno="3" tvg-id="match-tv" tvg-logo="https://epg.iptvx.one/picons/match-tv.png", Матч!
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="ntv-pl2" tvg-logo="https://epg.iptvx.one/picons/ntv-pl2.png", НТВ (+2)
+#EXTINF:-1 group-title="Эфирные" tvg-chno="4" tvg-id="ntv-pl2" tvg-logo="https://epg.iptvx.one/picons/ntv-pl2.png", НТВ (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="5kanal-ru-pl2" tvg-logo="https://epg.iptvx.one/picons/5kanal-ru-pl2.png", Пятый канал (+2)
+#EXTINF:-1 group-title="Эфирные" tvg-chno="5" tvg-id="5kanal-ru-pl2" tvg-logo="https://epg.iptvx.one/picons/5kanal-ru-pl2.png", Пятый канал (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="kultura-pl2" tvg-logo="https://epg.iptvx.one/picons/kultura-pl2.png", Россия К (+2)
+#EXTINF:-1 group-title="Эфирные" tvg-chno="6" tvg-id="kultura-pl2" tvg-logo="https://epg.iptvx.one/picons/kultura-pl2.png", Россия К (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="rossia-24" tvg-logo="https://epg.iptvx.one/picons/rossia-24.png", Россия 24
+#EXTINF:-1 group-title="Эфирные" tvg-chno="7" tvg-id="rossia-24" tvg-logo="https://epg.iptvx.one/picons/rossia-24.png", Россия 24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="karusel-pl2" tvg-logo="https://epg.iptvx.one/picons/karusel-pl2.png", Карусель (+2)
+#EXTINF:-1 group-title="Эфирные" tvg-chno="8" tvg-id="karusel-pl2" tvg-logo="https://epg.iptvx.one/picons/karusel-pl2.png", Карусель (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="otr" tvg-logo="https://epg.iptvx.one/picons/otr.png", ОТР
+#EXTINF:-1 group-title="Эфирные" tvg-chno="9" tvg-id="otr" tvg-logo="https://epg.iptvx.one/picons/otr.png", ОТР
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="tvcentr-pl2" tvg-logo="https://epg.iptvx.one/picons/tvcentr-pl2.png", ТВ Центр (+2)
+#EXTINF:-1 group-title="Эфирные" tvg-chno="10" tvg-id="tvcentr-pl2" tvg-logo="https://epg.iptvx.one/picons/tvcentr-pl2.png", ТВ Центр (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="rentv-pl2" tvg-logo="https://epg.iptvx.one/picons/rentv-pl2.png", РЕН ТВ (+2)
+#EXTINF:-1 group-title="Эфирные" tvg-chno="11" tvg-id="rentv-pl2" tvg-logo="https://epg.iptvx.one/picons/rentv-pl2.png", РЕН ТВ (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="spas" tvg-logo="https://epg.iptvx.one/picons/spas.png", Спас ТВ
+#EXTINF:-1 group-title="Эфирные" tvg-chno="12" tvg-id="spas" tvg-logo="https://epg.iptvx.one/picons/spas.png", Спас ТВ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="sts-pl2" tvg-logo="https://epg.iptvx.one/picons/sts-pl2.png", СТС (+2)
+#EXTINF:-1 group-title="Эфирные" tvg-chno="13" tvg-id="sts-pl2" tvg-logo="https://epg.iptvx.one/picons/sts-pl2.png", СТС (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="domashny-pl2" tvg-logo="https://epg.iptvx.one/picons/domashny-pl2.png", Домашний (+2)
+#EXTINF:-1 group-title="Эфирные" tvg-chno="14" tvg-id="domashny-pl2" tvg-logo="https://epg.iptvx.one/picons/domashny-pl2.png", Домашний (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="tv3-ru-pl2" tvg-logo="https://epg.iptvx.one/picons/tv3-ru-pl2.png", ТВ-3 (+2)
+#EXTINF:-1 group-title="Эфирные" tvg-chno="15" tvg-id="tv3-ru-pl2" tvg-logo="https://epg.iptvx.one/picons/tv3-ru-pl2.png", ТВ-3 (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="piatnica-pl2" tvg-logo="https://epg.iptvx.one/picons/piatnica-pl2.png", Пятница (+2)
+#EXTINF:-1 group-title="Эфирные" tvg-chno="16" tvg-id="piatnica-pl2" tvg-logo="https://epg.iptvx.one/picons/piatnica-pl2.png", Пятница (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 https://zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="zvezda-pl2" tvg-logo="https://epg.iptvx.one/picons/zvezda-pl2.png", Звезда (+2)
+#EXTINF:-1 group-title="Эфирные" tvg-chno="17" tvg-id="zvezda-pl2" tvg-logo="https://epg.iptvx.one/picons/zvezda-pl2.png", Звезда (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="mir-pl2" tvg-logo="https://epg.iptvx.one/picons/mir-pl2.png", МИР (+2)
+#EXTINF:-1 group-title="Эфирные" tvg-chno="18" tvg-id="mir-pl2" tvg-logo="https://epg.iptvx.one/picons/mir-pl2.png", МИР (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="tnt-pl2" tvg-logo="https://epg.iptvx.one/picons/tnt-pl2.png", ТНТ (+2)
+#EXTINF:-1 group-title="Эфирные" tvg-chno="19" tvg-id="tnt-pl2" tvg-logo="https://epg.iptvx.one/picons/tnt-pl2.png", ТНТ (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="muztv-pl2" tvg-logo="https://epg.iptvx.one/picons/muztv-pl2.png", МУЗ-ТВ (+2)
+#EXTINF:-1 group-title="Эфирные" tvg-chno="20" tvg-id="muztv-pl2" tvg-logo="https://epg.iptvx.one/picons/muztv-pl2.png", МУЗ-ТВ (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="2na2-pl2" tvg-logo="https://epg.iptvx.one/picons/2na2-pl2.png", 2x2 (+2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="sts-love" tvg-logo="https://epg.iptvx.one/picons/sts-love.png", СТС Love
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="super-pl2" tvg-logo="https://epg.iptvx.one/picons/super-pl2.png", Супер (+2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
-https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="tnt4-pl2" tvg-logo="https://epg.iptvx.one/picons/tnt4-pl2.png", ТНТ4 (+2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="che" tvg-logo="https://epg.iptvx.one/picons/che.png", Че!
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="yu-pl2" tvg-logo="https://epg.iptvx.one/picons/yu-pl2.png", Ю ТВ (+2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
-https://zabava-htlive.cdn.ngenix.net/hls/CH_U_2/variant.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-id="solnce" tvg-logo="https://epg.iptvx.one/picons/solnce.png", Солнце
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
 
+#EXTINF:-1 group-title="Региональные" tvg-chno="21" tvg-id="tumenskoe-vremia" tvg-logo="https://epg.iptvx.one/picons/tumenskoe-vremia.png", ТЮМЕНСКОЕ ВРЕМЯ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
+http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TUMVR_URAL_TUM/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региональные" tvg-chno="22" tvg-id="tvoya-tumen" tvg-logo="https://epg.iptvx.one/picons/tvoya-tumen.png", TVОЯ ТЮМЕНЬ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
+https://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TVOYATUMEN/variant.m3u8?version=2
+#EXTINF:-1 group-title="Региональные" tvg-chno="23" tvg-id="tnv-planeta" tvg-logo="https://epg.iptvx.one/picons/tnv-planeta.png", ТНВ-Планета
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
+https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R05_TNV/variant.m3u8
+#EXTINF:-1 group-title="Региональные" tvg-chno="24" tvg-id="bst" tvg-logo="https://epg.iptvx.one/picons/bst.png",БСТ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
+https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_BST/variant.m3u8
+#EXTINF:-1 group-title="Региональные" tvg-chno="25", Тобольское время
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
+https://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TOBOLSKOEVREMYA/variant.m3u8
+#EXTINF:-1 group-title="Региональные" tvg-chno="26" tvg-id="ural24" tvg-logo="https://iptvx.one/picons/ural24.png", Урал 24
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/chelyabinsk/ural24-hd/track_101_4e9e7e3b/chunklist.m3u8
+#EXTINF:-1 group-title="Региональные" tvg-chno="27" tvg-id="yugra" tvg-logo="https://iptvx.one/picons/yugra.png", Югра
+https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8
+
+
+#EXTINF:-1 group-title="Информационные" tvg-id="360-podmoskovie" tvg-logo="https://iptvx.one/picons/360-podmoskovie.png", 360°
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
+#EXTINF:-1 group-title="Информационные" tvg-id="360-news" tvg-logo="https://iptvx.one/picons/360-news.png", 360° Новости
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/playlist.m3u8
 #EXTINF:-1 group-title="Информационные" tvg-id="euronews" tvg-logo="https://iptvx.one/picons/euronews.png", Euronews
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 https://stream8.cinerama.uz/1024/tracks-v1a1/mono.m3u8
@@ -103,22 +107,11 @@ http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 http://api.tjmc.ru/v2/tvs/channel/360news
 #EXTINF:-1 group-title="Информационные" tvg-id="solovjinypomiot" tvg-logo="https://epg.iptvx.one/picons/solovjinypomiot.png", Соловьев Live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://api.tjmc.ru/v2/tvs/channel/solovyevlive
-#EXTINF:-1 group-title="Информационные" tvg-id="dozhd",Дождь
+https://stream.smotrim.ru/hls/solovievlive/playlist_6.m3u8
+#EXTINF:-1 group-title="Информационные" tvg-id="dozhd" tvg-logo="https://epg.iptvx.one/picons/dozhd.png", Дождь
 http://127.0.0.1:6878/ace/manifest.m3u8?id=4b91bbf01a5574583e7e4af5b258de3e454d83e4
-
-#EXTINF:-1 group-title="Региональные" tvg-id="tumenskoe-vremia" tvg-logo="https://epg.iptvx.one/picons/tumenskoe-vremia.png", ТЮМЕНСКОЕ ВРЕМЯ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
-http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TUMVR_URAL_TUM/variant.m3u8?version=2
-#EXTINF:-1 group-title="Региональные" tvg-id="tumenskoe-vremia" tvg-logo="https://iptvx.one/picons/tumenskoe-vremia.png", Тюменское время
-https://hls-sibinformburo.cdnvideo.ru/sibinformburo-srt/sibinformburo001/playlist.m3u8
-#EXTINF:-1 group-title="Региональные" tvg-id="tvoya-tumen" tvg-logo="https://epg.iptvx.one/picons/tvoya-tumen.png", TVОЯ ТЮМЕНЬ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
-https://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TVOYATUMEN/variant.m3u8?version=2
-#EXTINF:-1 group-title="Региональные" tvg-id="ural24" tvg-logo="https://iptvx.one/picons/ural24.png", Урал 24
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/chelyabinsk/ural24-hd/track_101_4e9e7e3b/chunklist.m3u8
-#EXTINF:-1 group-title="Региональные" tvg-id="yugra" tvg-logo="https://iptvx.one/picons/yugra.png", Югра
-https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8
+#EXTINF:-1 group-title="Информационные" tvg-id="echotv24" tvg-logo="https://epg.iptvx.one/picons/echotv24.png", Эхо ТВ 24
+http://stream.novouralsk-news.ru/echotv24/echotv24-576p.m3u8
 
 #EXTINF:-1 group-title="Спорт" tvg-id="match-premier" tvg-logo="https://iptvx.one/picons/match-premier.png",Матч! Премьер HD
 http://127.0.0.1:6878/ace/manifest.m3u8?id=4b7c5f21b435d79c823e47572655a9c157a3ba12
@@ -167,6 +160,27 @@ http://127.0.0.1:6878/ace/manifest.m3u8?id=822654b2c0db24d1de149cb21fdd44a3b968f
 #EXTINF:-1 group-title="Спорт" tvg-id="extreme-sports" tvg-logo="https://iptvx.one/picons/extreme-sports.png",Extreme Sports
 http://127.0.0.1:6878/ace/manifest.m3u8?id=73ff07648e367efebd94636047b07625f664a082
 
+#EXTINF:-1 group-title="Развлекательные" tvg-id="2na2-pl2" tvg-logo="https://epg.iptvx.one/picons/2na2-pl2.png", 2x2 (+2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_2/variant.m3u8
+#EXTINF:-1 group-title="Развлекательные" tvg-id="sts-love" tvg-logo="https://epg.iptvx.one/picons/sts-love.png", СТС Love
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
+#EXTINF:-1 group-title="Развлекательные" tvg-id="super-pl2" tvg-logo="https://epg.iptvx.one/picons/super-pl2.png", Супер (+2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
+https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_2/variant.m3u8
+#EXTINF:-1 group-title="Развлекательные" tvg-id="tnt4-pl2" tvg-logo="https://epg.iptvx.one/picons/tnt4-pl2.png", ТНТ4 (+2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8
+#EXTINF:-1 group-title="Развлекательные" tvg-id="che" tvg-logo="https://epg.iptvx.one/picons/che.png", Че!
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
+#EXTINF:-1 group-title="Развлекательные" tvg-id="yu-pl2" tvg-logo="https://epg.iptvx.one/picons/yu-pl2.png", Ю ТВ (+2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
+https://zabava-htlive.cdn.ngenix.net/hls/CH_U_2/variant.m3u8
+#EXTINF:-1 group-title="Развлекательные" tvg-id="solnce" tvg-logo="https://epg.iptvx.one/picons/solnce.png", Солнце
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (AndroidTV) Chrome/43.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
 
 #EXTINF:-1 tvg-id="belarus2" tvg-logo="https://iptvx.one/picons/belarus2hd.png" group-title="Развлекательные" ,Беларусь 2 HD
 https://edge50.dc.beltelecom.by/ngtrk/smil:belarus2.smil/chunklist_b5160000_sleng.m3u8
