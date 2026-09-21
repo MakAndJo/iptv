@@ -89,10 +89,10 @@ https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/play
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/playlist.m3u8
 #EXTINF:-1 group-title="Информационные" tvg-id="euronews" tvg-logo="https://iptvx.one/picons/euronews.png", Euronews
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://stream8.cinerama.uz/1024/tracks-v1a1/mono.m3u8
+http://192.168.0.13:6878/ace/getstream?id=837edb9f5dab770965ddbd1b1f9f1ef55305d10d
 #EXTINF:-1 group-title="Информационные" tvg-id="vmeste-rf" tvg-logo="https://epg.iptvx.one/picons/vmeste-rf.png", Вместе-РФ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://cdn-01.bonus-tv.ru:80/vmesterf/tracks-v1a1/index.m3u8
+http://192.168.0.13:6878/ace/getstream?id=123795284dcaf8140fe43415187356bdafd2a50d
 #EXTINF:-1 group-title="Информационные" tvg-id="izvestia" tvg-logo="https://epg.iptvx.one/picons/izvestia.png", Известия
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 https://igi-hls.cdnvideo.ru/igi/igi_tcode/tracks-v1a1/mono.ts.m3u8
@@ -108,7 +108,7 @@ https://stream.smotrim.ru/hls/solovievlive/playlist_6.m3u8
 #EXTINF:-1 group-title="Информационные" tvg-id="dozhd" tvg-logo="https://epg.iptvx.one/picons/dozhd.png", Дождь
 http://192.168.0.13:6878/ace/getstream?id=4b91bbf01a5574583e7e4af5b258de3e454d83e4
 #EXTINF:-1 group-title="Информационные" tvg-id="echotv24" tvg-logo="https://epg.iptvx.one/picons/echotv24.png", Эхо ТВ 24
-http://stream.novouralsk-news.ru/echotv24/echotv24-576p.m3u8
+http://192.168.0.13:6878/ace/getstream?id=4fb00f28efc646e7813b8232202b71ca0a69a3f5
 
 #EXTINF:-1 group-title="Спорт" tvg-id="match-premier" tvg-logo="https://iptvx.one/picons/match-premier.png",Матч! Премьер HD
 http://192.168.0.13:6878/ace/getstream?id=4b7c5f21b435d79c823e47572655a9c157a3ba12
