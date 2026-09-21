@@ -87,9 +87,6 @@ https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
 #EXTINF:-1 group-title="Информационные" tvg-id="360-news" tvg-logo="https://iptvx.one/picons/360-news.png", 360° Новости
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/playlist.m3u8
-#EXTINF:-1 group-title="Информационные" tvg-id="euronews" tvg-logo="https://iptvx.one/picons/euronews.png", Euronews
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-http://192.168.0.13:6878/ace/getstream?id=837edb9f5dab770965ddbd1b1f9f1ef55305d10d
 #EXTINF:-1 group-title="Информационные" tvg-id="vmeste-rf" tvg-logo="https://epg.iptvx.one/picons/vmeste-rf.png", Вместе-РФ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 http://192.168.0.13:6878/ace/getstream?id=123795284dcaf8140fe43415187356bdafd2a50d
@@ -112,8 +109,6 @@ http://192.168.0.13:6878/ace/getstream?id=4fb00f28efc646e7813b8232202b71ca0a69a3
 
 #EXTINF:-1 group-title="Спорт" tvg-id="match-tv" tvg-logo="https://iptvx.one/picons/match-tv.png",Матч ТВ HD
 http://192.168.0.13:6878/ace/getstream?id=a203f6b935a8ad8659c4c76c1d9c13afa6368ef2
-#EXTINF:-1 group-title="Спорт" tvg-id="match-premier" tvg-logo="https://iptvx.one/picons/match-premier.png",Матч! Премьер
-http://192.168.0.13:6878/ace/getstream?id=9532342728a8c48eeb4a849211bc2d6c6bcf9479
 #EXTINF:-1 group-title="Спорт" tvg-id="match-premier" tvg-logo="https://iptvx.one/picons/match-premier.png",Матч! Премьер HD
 http://192.168.0.13:6878/ace/getstream?id=4b7c5f21b435d79c823e47572655a9c157a3ba12
 #EXTINF:-1 group-title="Спорт" tvg-id="match-football1" tvg-logo="https://iptvx.one/picons/match-football1.png",Матч! Футбол 1 HD
